@@ -1,0 +1,132 @@
+# Nmap 7.95 scan initiated Tue Jun 17 17:34:05 2025 as: nmap -sC -sV -Pn -T4 -oN nmap_scan.txt 10.244.3.136
+Nmap scan report for 10.244.3.136
+Host is up (0.0054s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE VERSION
+22/tcp    closed ssh
+80/tcp    open   http    nginx 1.22.1
+|_http-server-header: nginx/1.22.1
+|_http-title: Page not found at /
+3001/tcp  open   nessus?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, Kerberos, NCP, RPCCheck, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServerCookie, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   FourOhFourRequest: 
+|     HTTP/1.1 200 OK
+|     X-Frame-Options: SAMEORIGIN
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 2444
+|     ETag: W/"98c-2UUNAq6r3LzSYR6bPfHuDzBzVyc"
+|     Date: Tue, 17 Jun 2025 11:26:55 GMT
+|     Connection: close
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <meta charset="UTF-8" />
+|     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+|     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+|     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+|     <link rel="manifest" href="/manifest.json" />
+|     <meta name="theme-color" id="theme-color" content="" />
+|     <meta name="description" content="Uptime Kuma monitoring tool" />
+|     <title>Uptime Kuma</title>
+|     <style> .noscript-message {
+|     font-size: 20px;
+|     text-align: center;
+|     padding: 10px;
+|     max-width: 500px;
+|     marg
+|   GetRequest: 
+|     HTTP/1.1 302 Found
+|     X-Frame-Options: SAMEORIGIN
+|     Location: /dashboard
+|     Vary: Accept
+|     Content-Type: text/plain; charset=utf-8
+|     Content-Length: 32
+|     Date: Tue, 17 Jun 2025 11:26:55 GMT
+|     Connection: close
+|     Found. Redirecting to /dashboard
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 200 OK
+|     X-Frame-Options: SAMEORIGIN
+|     Vary: Accept-Encoding
+|     Allow: GET,HEAD
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 8
+|     ETag: W/"8-ZRAf8oNBS3Bjb/SU2GYZCmbtmXg"
+|     Date: Tue, 17 Jun 2025 11:26:55 GMT
+|     Connection: close
+|_    GET,HEAD
+8000/tcp  open   http    Gunicorn
+|_http-title: Page not found at /
+|_http-server-header: gunicorn
+8081/tcp  open   http    Node.js Express framework
+|_http-title: Site doesn't have a title.
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=Authorization Required
+9000/tcp  open   http    Apache Tomcat (language: en)
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: SonarQube
+9090/tcp  open   http    Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+| http-title: Prometheus Time Series Collection and Processing Server
+|_Requested resource was /query
+32774/tcp open   http    Prometheus exporter Node Exporter 1.9.1
+|_http-title: Node Exporter
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3001-TCP:V=7.95%I=7%D=6/17%Time=685152B8%P=i686-pc-windows-windows%
+SF:r(NCP,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\
+SF:n\r\n")%r(GetRequest,EC,"HTTP/1\.1\x20302\x20Found\r\nX-Frame-Options:\
+SF:x20SAMEORIGIN\r\nLocation:\x20/dashboard\r\nVary:\x20Accept\r\nContent-
+SF:Type:\x20text/plain;\x20charset=utf-8\r\nContent-Length:\x2032\r\nDate:
+SF:\x20Tue,\x2017\x20Jun\x202025\x2011:26:55\x20GMT\r\nConnection:\x20clos
+SF:e\r\n\r\nFound\.\x20Redirecting\x20to\x20/dashboard")%r(HTTPOptions,FC,
+SF:"HTTP/1\.1\x20200\x20OK\r\nX-Frame-Options:\x20SAMEORIGIN\r\nVary:\x20A
+SF:ccept-Encoding\r\nAllow:\x20GET,HEAD\r\nContent-Type:\x20text/html;\x20
+SF:charset=utf-8\r\nContent-Length:\x208\r\nETag:\x20W/\"8-ZRAf8oNBS3Bjb/S
+SF:U2GYZCmbtmXg\"\r\nDate:\x20Tue,\x2017\x20Jun\x202025\x2011:26:55\x20GMT
+SF:\r\nConnection:\x20close\r\n\r\nGET,HEAD")%r(RTSPRequest,FC,"HTTP/1\.1\
+SF:x20200\x20OK\r\nX-Frame-Options:\x20SAMEORIGIN\r\nVary:\x20Accept-Encod
+SF:ing\r\nAllow:\x20GET,HEAD\r\nContent-Type:\x20text/html;\x20charset=utf
+SF:-8\r\nContent-Length:\x208\r\nETag:\x20W/\"8-ZRAf8oNBS3Bjb/SU2GYZCmbtmX
+SF:g\"\r\nDate:\x20Tue,\x2017\x20Jun\x202025\x2011:26:55\x20GMT\r\nConnect
+SF:ion:\x20close\r\n\r\nGET,HEAD")%r(RPCCheck,2F,"HTTP/1\.1\x20400\x20Bad\
+SF:x20Request\r\nConnection:\x20close\r\n\r\n")%r(DNSVersionBindReqTCP,2F,
+SF:"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r
+SF:(DNSStatusRequestTCP,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnecti
+SF:on:\x20close\r\n\r\n")%r(Help,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:nConnection:\x20close\r\n\r\n")%r(SSLSessionReq,2F,"HTTP/1\.1\x20400\x2
+SF:0Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(TerminalServerCooki
+SF:e,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\
+SF:n")%r(TLSSessionReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnectio
+SF:n:\x20close\r\n\r\n")%r(Kerberos,2F,"HTTP/1\.1\x20400\x20Bad\x20Request
+SF:\r\nConnection:\x20close\r\n\r\n")%r(SMBProgNeg,2F,"HTTP/1\.1\x20400\x2
+SF:0Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(X11Probe,2F,"HTTP/1
+SF:\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(FourOh
+SF:FourRequest,A5D,"HTTP/1\.1\x20200\x20OK\r\nX-Frame-Options:\x20SAMEORIG
+SF:IN\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x
+SF:202444\r\nETag:\x20W/\"98c-2UUNAq6r3LzSYR6bPfHuDzBzVyc\"\r\nDate:\x20Tu
+SF:e,\x2017\x20Jun\x202025\x2011:26:55\x20GMT\r\nConnection:\x20close\r\n\
+SF:r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n<head>\n\x20\x20\x20\x20<
+SF:meta\x20charset=\"UTF-8\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"viewpo
+SF:rt\"\x20content=\"width=device-width,\x20initial-scale=1\.0,\x20viewpor
+SF:t-fit=cover\"\x20/>\n\x20\x20\x20\x20<link\x20rel=\"apple-touch-icon\"\
+SF:x20sizes=\"180x180\"\x20href=\"/apple-touch-icon\.png\">\n\x20\x20\x20\
+SF:x20<link\x20rel=\"icon\"\x20type=\"image/svg\+xml\"\x20href=\"/icon\.sv
+SF:g\"\x20/>\n\x20\x20\x20\x20<link\x20rel=\"manifest\"\x20href=\"/manifes
+SF:t\.json\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"theme-color\"\x20id=\"
+SF:theme-color\"\x20content=\"\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"de
+SF:scription\"\x20content=\"Uptime\x20Kuma\x20monitoring\x20tool\"\x20/>\n
+SF:\x20\x20\x20\x20<title>Uptime\x20Kuma</title>\n\x20\x20\x20\x20<style>\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\.noscript-message\x20{\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2020px;\n\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20max-width:\x20500px;\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20marg");
+MAC Address: BC:24:11:BD:0F:AE (Proxmox Server Solutions GmbH)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun 17 17:35:18 2025 -- 1 IP address (1 host up) scanned in 73.38 seconds
