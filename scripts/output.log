@@ -1,0 +1,378 @@
+
+[*] Post Exploitation Quick Tips (full Mode)
+
+
+[+] Пользователь:
+arturduisheev
+
+[+] Имя хоста:
+arturduisheev.local
+
+[+] Инфо о системе:
+Darwin arturduisheev.local 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:24 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6030 arm64
+
+[+] Список файлов в /home/
+
+[+] История bash
+/Users/arturduisheev/Downloads/jetbra/scripts/install.sh 
+chsh -s /bin/zsh
+/Users/arturduisheev/Downloads/jetbra/scripts/install.sh 
+ls
+cd Desktop/
+ls
+./pingomator.sh 
+nano pingomator.sh 
+./pingomator.sh 
+nano pingomator.sh 
+./pingomator.sh 
+nano pingomator.sh 
+./pingomator.sh 
+ды
+ls
+mkdir lesson_1
+mv lesson_1/ bellagio
+cd bellagio/
+touch test.txt
+ls
+nano test.txt 
+ls -la
+ls
+rm -rf test.txt 
+sudo -i
+sudo -i
+ls -la
+touch test.txt
+nano test.txt 
+ls -la test.txt 
+chmod chmod 000 test.txt 
+chmod  000 test.txt 
+chmod 000 test.txt 
+l
+ls
+ls -la test.txt 
+cat test.txt 
+chmod 777 test.txt 
+ls -la test.txt
+chmod 701 test.txt 
+ls -la test.txt 
+ps 
+ps
+ps aux | grep "telegram"
+grep "telegram"
+cd
+mkdir gg
+ chmod 777 gg/
+history
+whoami
+ls
+cd ..
+ls
+cd ..
+ls
+sudo -i
+brew install syslog
+brew install rsyslog
+ls
+cd ..
+ls
+cd etc
+ls
+nano syslog.conf 
+ls -la
+find rsyslog
+sudo -i
+brew install shred
+brew install coreutils
+sudo -i
+brew install etherape
+brew install goldeneye
+shred
+ls
+ls
+ls
+cd ..
+ls
+exit
+
+[+] Поиск .kdbx, .ovpn, .pem
+/usr/local/go/src/crypto/x509/platform_root_cert.pem
+/usr/local/go/src/crypto/x509/platform_root_key.pem
+/usr/local/go/src/crypto/tls/testdata/example-cert.pem
+/usr/local/go/src/crypto/tls/testdata/example-key.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/dh512.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/sha256.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nokia.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nullcert.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/https_svn_python_org_root.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nullbytecert.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert.passwd.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/badkey.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert2.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_cert.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_key.passwd.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/badcert.pem
+/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_key.pem
+/Library/PostgreSQL/17/pgAdmin 4.app/Contents/Resources/web/cacert.pem
+/Library/PostgreSQL/17/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/botocore/cacert.pem
+/Library/PostgreSQL/17/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pip/_vendor/certifi/cacert.pem
+/Library/PostgreSQL/17/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/certifi/cacert.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/pip/_vendor/certifi/cacert.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/dh512.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/sha256.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/nokia.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/nullcert.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/https_svn_python_org_root.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/nullbytecert.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/keycert.passwd.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/keycert.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/badkey.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/keycert2.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/ssl_cert.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/ssl_key.passwd.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/badcert.pem
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/ssl_key.pem
+/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Resources/dsa_pub.pem
+/Library/Nessus/run/var/nessus/tenable-plugins-a-20210201.pem
+/Library/Nessus/run/var/nessus/tenable-plugins-b-20210201.pem
+/Library/Nessus/run/var/nessus/nessus_org.pem
+/Library/Nessus/run/com/nessus/CA/servercert.pem
+/Library/Nessus/run/com/nessus/CA/cacert.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/nokia.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/nullcert.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/nosan.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/nullbytecert.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/pycacert.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/talos-2019-0758.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert.passwd.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/pycakey.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/selfsigned_pythontestdotnet.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/allsans.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert4.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/badkey.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/idnsans.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert2.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/ssl_cert.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/ssl_key.passwd.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert3.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/badcert.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/ssl_key.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycertecc.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/ffdh3072.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/secp384r1.pem
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Library/Tcl/8.5/xotcl1.6.6/apps/comm/server.pem
+/System/Library/Tcl/8.5/xotcl1.6.6/apps/comm/client.pem
+/System/Library/Templates/Data/private/etc/ssl/cert.pem
+/System/Library/PrivateFrameworks/ASOctaneSupport.framework/Versions/A/XPCServices/ASOctaneSupportXPCService.xpc/Contents/Resources/sk2-private.pem
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/ssl_certs/rubygems.org/GlobalSignRootCA.pem
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/ssl_certs/rubygems.org/GlobalSignRootCA_R3.pem
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/rubygems.global.ssl.fastly.net/DigiCertHighAssuranceEVRootCA.pem
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/index.rubygems.org/GlobalSignRootCA.pem
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/rubygems.org/AddTrustExternalCARoot.pem
+/System/Library/SoftwareUpdateCertificates/iPhoneSoftwareUpdate.pem
+/System/Volumes/Hardware/MobileActivation/ucrt/ucrt.pem
+/System/Volumes/Update/mnt1/System/Library/Tcl/8.5/xotcl1.6.6/apps/comm/server.pem
+/System/Volumes/Update/mnt1/System/Library/Tcl/8.5/xotcl1.6.6/apps/comm/client.pem
+/System/Volumes/Update/mnt1/System/Library/Templates/Data/private/etc/ssl/cert.pem
+/System/Volumes/Update/mnt1/System/Library/PrivateFrameworks/EmailDaemon.framework/Versions/A/Resources/digicert vmc root.pem
+/System/Volumes/Update/mnt1/System/Library/PrivateFrameworks/EmailDaemon.framework/Versions/A/Resources/entrust vmc root.pem
+/System/Volumes/Update/mnt1/System/Library/PrivateFrameworks/ASOctaneSupport.framework/Versions/A/XPCServices/ASOctaneSupportXPCService.xpc/Contents/Resources/sk2-private.pem
+/System/Volumes/Update/mnt1/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/ssl_certs/rubygems.org/GlobalSignRootCA.pem
+/System/Volumes/Update/mnt1/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/ssl_certs/rubygems.org/GlobalSignRootCA_R3.pem
+/System/Volumes/Update/mnt1/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/rubygems.global.ssl.fastly.net/DigiCertHighAssuranceEVRootCA.pem
+/System/Volumes/Update/mnt1/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/index.rubygems.org/GlobalSignRootCA.pem
+/System/Volumes/Update/mnt1/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/rubygems.org/AddTrustExternalCARoot.pem
+/System/Volumes/Update/mnt1/System/Library/SoftwareUpdateCertificates/iPhoneSoftwareUpdate.pem
+/System/Volumes/Data/usr/local/go/src/crypto/x509/platform_root_cert.pem
+/System/Volumes/Data/usr/local/go/src/crypto/x509/platform_root_key.pem
+/System/Volumes/Data/usr/local/go/src/crypto/tls/testdata/example-cert.pem
+/System/Volumes/Data/usr/local/go/src/crypto/tls/testdata/example-key.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/dh512.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/sha256.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nokia.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nullcert.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/https_svn_python_org_root.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nullbytecert.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert.passwd.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/badkey.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert2.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_cert.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_key.passwd.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/badcert.pem
+/System/Volumes/Data/usr/local/share/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_key.pem
+/System/Volumes/Data/Library/PostgreSQL/17/pgAdmin 4.app/Contents/Resources/web/cacert.pem
+/System/Volumes/Data/Library/PostgreSQL/17/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/botocore/cacert.pem
+/System/Volumes/Data/Library/PostgreSQL/17/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Library/PostgreSQL/17/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/dh512.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/sha256.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/nokia.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/nullcert.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/https_svn_python_org_root.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/nullbytecert.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/keycert.passwd.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/keycert.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/badkey.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/keycert2.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/ssl_cert.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/ssl_key.passwd.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/badcert.pem
+/System/Volumes/Data/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/future/backports/test/ssl_key.pem
+/System/Volumes/Data/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Resources/dsa_pub.pem
+/System/Volumes/Data/Library/Nessus/run/var/nessus/tenable-plugins-a-20210201.pem
+/System/Volumes/Data/Library/Nessus/run/var/nessus/tenable-plugins-b-20210201.pem
+/System/Volumes/Data/Library/Nessus/run/var/nessus/nessus_org.pem
+/System/Volumes/Data/Library/Nessus/run/com/nessus/CA/servercert.pem
+/System/Volumes/Data/Library/Nessus/run/com/nessus/CA/cacert.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/nokia.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/nullcert.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/nosan.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/nullbytecert.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/pycacert.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/talos-2019-0758.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert.passwd.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/pycakey.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/selfsigned_pythontestdotnet.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/allsans.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert4.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/badkey.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/idnsans.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert2.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/ssl_cert.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/ssl_key.passwd.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycert3.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/badcert.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/ssl_key.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/keycertecc.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/ffdh3072.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/test/certdata/secp384r1.pem
+/System/Volumes/Data/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/System/Library/Tcl/8.5/xotcl1.6.6/apps/comm/server.pem
+/System/Volumes/Data/System/Library/Tcl/8.5/xotcl1.6.6/apps/comm/client.pem
+/System/Volumes/Data/System/Library/Templates/Data/private/etc/ssl/cert.pem
+/System/Volumes/Data/System/Library/PrivateFrameworks/ASOctaneSupport.framework/Versions/A/XPCServices/ASOctaneSupportXPCService.xpc/Contents/Resources/sk2-private.pem
+/System/Volumes/Data/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/ssl_certs/rubygems.org/GlobalSignRootCA.pem
+/System/Volumes/Data/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/ssl_certs/rubygems.org/GlobalSignRootCA_R3.pem
+/System/Volumes/Data/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/rubygems.global.ssl.fastly.net/DigiCertHighAssuranceEVRootCA.pem
+/System/Volumes/Data/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/index.rubygems.org/GlobalSignRootCA.pem
+/System/Volumes/Data/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/ssl_certs/rubygems.org/AddTrustExternalCARoot.pem
+/System/Volumes/Data/System/Library/SoftwareUpdateCertificates/iPhoneSoftwareUpdate.pem
+/System/Volumes/Data/private/etc/ssl/cert.pem
+/System/Volumes/Data/Users/arturduisheev/learnJS/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/learnJS/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/AnsibleKata/venv/lib/python3.13/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/AnsibleKata/venv/lib/python3.13/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/DevOpsProjects/geeks/DevOps/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/DevOpsProjects/client-service-backend-app/.venv/lib/python3.12/site-packages/botocore/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/DevOpsProjects/client-service-backend-app/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/DevOpsProjects/client-service-backend-app/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/GitLearn/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MedParser/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MedParser/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/biketeam_api/venv/lib/python3.9/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/biketeam_api/venv/lib/python3.9/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/biketeam_api/venv/lib/python3.9/site-packages/social_core/tests/testkey.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/UmbrellaAgencyBackEnd/nginx/prod/umbrella/umbrella.com.kz.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/UmbrellaAgencyBackEnd/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/UmbrellaAgencyBackEnd/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/InsightBoxBackEnd/venv/lib/python3.9/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/InsightBoxBackEnd/venv/lib/python3.9/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/InsightBoxBackEnd/venv/lib/python3.9/site-packages/social_core/tests/testkey.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Osintgram/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Osintgram/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MegaBot/.venv/lib/python3.12/site-packages/slapdtest/certs/server.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MegaBot/.venv/lib/python3.12/site-packages/slapdtest/certs/client.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MegaBot/.venv/lib/python3.12/site-packages/slapdtest/certs/ca.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MegaBot/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MegaBot/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MegaBot/build/nginx/megabot/mega.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MyBishkekBackEnd/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MyBishkekBackEnd/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MyBishkekBackEnd/.venv/lib/python3.12/site-packages/social_core/tests/testkey.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/InfoSecBackEnd/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/dh512.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/sha256.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nokia.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nullcert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/https_svn_python_org_root.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/nullbytecert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert.passwd.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/badkey.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/keycert2.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_cert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_key.passwd.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/badcert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/setoolkit/venv/lib/python3.12/site-packages/future/backports/test/ssl_key.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Forex/venv/lib/python3.9/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Forex/venv/lib/python3.9/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Forex/venv/lib/python3.9/site-packages/social_core/tests/testkey.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/mailcat/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/email2phonenumber/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/email2phonenumber/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Game/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Game/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/backend-president-archive/venv/Lib/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/backend-president-archive/venv/Lib/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Translator/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Translator/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/SpeechToText/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/SpeechToText/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Atomic/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Atomic/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/vkOsint/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/vkOsint/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/SongKolTravelBackEnd/venv/lib/python3.9/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/SongKolTravelBackEnd/venv/lib/python3.9/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/SongKolTravelBackEnd/src/venv/lib/python3.9/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/SongKolTravelBackEnd/src/venv/lib/python3.9/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/CustomAdminPetProject/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/EmailSender/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Locus/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/WeMayBackEnd/venv/lib/python3.9/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/WeMayBackEnd/venv/lib/python3.9/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/WeMayBackEnd/venv/lib/python3.9/site-packages/social_core/tests/testkey.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/EveryTaskChallenge/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/WakeUpNeooBot/.venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MegaBotRewritten/src/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/MegaBotRewritten/src/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Monitoring/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Monitoring/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Monitoring/venv/lib/python3.12/site-packages/social_core/tests/testkey.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/YouTubeInstalationBot/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/YouTubeInstalationBot/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/Auto_Tor_IP_changer/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/slowloris/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/EmailHarvester/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Projects/EmailHarvester/venv/lib/python3.12/site-packages/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Desktop/AnvarForum/venv/lib/python3.12/site-packages/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Desktop/всякое/PemKeys/ahmadserver.pem
+/System/Volumes/Data/Users/arturduisheev/Desktop/всякое/PemKeys/arsen.pem
+/System/Volumes/Data/Users/arturduisheev/Library/Application Support/OpenVPN Connect/profiles/1748697178659.ovpn
+/System/Volumes/Data/Users/arturduisheev/Library/Application Support/OpenVPN Connect/profiles/1748696130544.ovpn
+/System/Volumes/Data/Users/arturduisheev/Library/Application Support/virtualenv/wheel/3.12/image/1/CopyPipInstall/pip-25.0.1-py3-none-any/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Library/Application Support/virtualenv/wheel/3.12/image/1/CopyPipInstall/pip-23.2.1-py3-none-any/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Library/Application Support/virtualenv/wheel/3.9/image/1/CopyPipInstall/pip-23.2.1-py3-none-any/pip/_vendor/certifi/cacert.pem
+/System/Volumes/Data/Users/arturduisheev/Library/Android/sdk/emulator/lib/ca-bundle.pem
+
+[+] SSH-ключи
+[-] Ошибка или доступа нет.
+
+[+] Cron-задания
+
+[+] Сетевые соединения
+
+[+] Загружаем и запускаем LinPEAS:
